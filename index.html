@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Уклоняйся!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-wrapper">
+    <div class="top-panel">
+      <div>Счёт: <span id="score">0</span></div>
+      <div>Рекорд: <span id="best">0</span></div>
+    </div>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <div id="startScreen" class="screen">
+      <h1>УКЛОНЯЙСЯ!</h1>
+      <p>Уворачивайся от красных блоков и набирай очки.</p>
+      <p>Управление: <b>← →</b> или <b>A D</b></p>
+      <p>На телефоне: нажимай слева или справа.</p>
+      <button id="startButton">ИГРАТЬ</button>
+    </div>
+
+    <div id="gameOverScreen" class="screen hidden">
+      <h1>ИГРА ОКОНЧЕНА</h1>
+      <p>Твой счёт: <span id="finalScore">0</span></p>
+      <p>Рекорд: <span id="finalBest">0</span></p>
+      <button id="restartButton">ЕЩЁ РАЗ</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
