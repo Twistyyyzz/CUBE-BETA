@@ -1,33 +1,33 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Уклоняйся!</title>
+  <title>Dodge!</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="game-wrapper">
     <div class="top-panel">
-      <div>Счёт: <span id="score">0</span></div>
-      <div>Рекорд: <span id="best">0</span></div>
+      <div>Score: <span id="score">0</span></div>
+      <div>Best: <span id="best">0</span></div>
     </div>
 
     <canvas id="gameCanvas"></canvas>
 
     <div id="startScreen" class="screen">
-      <h1>УКЛОНЯЙСЯ!</h1>
-      <p>Уворачивайся от красных блоков и набирай очки.</p>
-      <p>Управление: <b>← →</b> или <b>A D</b></p>
-      <p>На телефоне: нажимай слева или справа.</p>
-      <button id="startButton">ИГРАТЬ</button>
+      <h1>DODGE!</h1>
+      <p>Dodge the red blocks and score points.</p>
+      <p>Controls: <b>← →</b> or <b>A D</b></p>
+      <p>On mobile: tap left or right.</p>
+      <button id="startButton">PLAY</button>
     </div>
 
     <div id="gameOverScreen" class="screen hidden">
-      <h1>ИГРА ОКОНЧЕНА</h1>
-      <p>Твой счёт: <span id="finalScore">0</span></p>
-      <p>Рекорд: <span id="finalBest">0</span></p>
-      <button id="restartButton">ЕЩЁ РАЗ</button>
+      <h1>GAME OVER</h1>
+      <p>Your score: <span id="finalScore">0</span></p>
+      <p>Best: <span id="finalBest">0</span></p>
+      <button id="restartButton">TRY AGAIN</button>
     </div>
   </div>
   <script src="script.js"></script>
