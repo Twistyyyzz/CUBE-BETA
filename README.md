@@ -1,14 +1,14 @@
 # CUBE-BETA
-# 🎮 Уклоняйся!
+# 🎮 Dodge!
 
-Простая игра на HTML, CSS и JavaScript.
+A simple game built with HTML, CSS, and JavaScript.
 
-## Запуск
+## How to Run
 
-Открой `index.html` в браузере.
+Open `index.html` in your browser.
 
-## Управление
+## Controls
 
-- ← → или A/D — движение
-- Space — начать игру
-- На телефоне — левая/правая часть экрана
+- ← → or A/D — Move
+- Space — Start game
+- Mobile — Left/right side of the screen
