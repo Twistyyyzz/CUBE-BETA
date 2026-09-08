@@ -1,5 +1,5 @@
 # CUBE-BETA
-# 🎮 Dodge!
+# 𖠌 Dodge!
 
 A simple game built with HTML, CSS, and JavaScript.
 
